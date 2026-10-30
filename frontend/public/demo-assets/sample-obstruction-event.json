@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "event_id": "demo-evt-0001",
+  "event_type": "OBSTRUCTION_DETECTED",
+  "scenario_id": "CAR_BLOCKING",
+  "stop_id": "CYB-DEMO-01",
+  "route_id": "DEMO-R01",
+  "timestamp": "2026-10-27T10:24:18+08:00",
+  "source_mode": "recorded_video_model_inference",
+  "deployment_status": "prototype",
+  "object": {"class": "car", "confidence": 0.92},
+  "zone": {"id": "boarding-zone-01", "dwell_seconds": 12, "overlap_ratio": 0.45},
+  "review_status": "PENDING_OPERATOR_REVIEW",
+  "is_demo": true
+}

@@ -1,0 +1,22 @@
+{
+  "routes": [
+    "/",
+    "/passenger",
+    "/passenger/request",
+    "/passenger/status",
+    "/driver",
+    "/operator",
+    "/experience",
+    "/demo",
+    "/activity"
+  ],
+  "viewports": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "checks": 36,
+  "horizontal_overflow_failures": 0,
+  "physical_device_tested": false
+}

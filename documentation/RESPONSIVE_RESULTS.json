@@ -1,0 +1,26 @@
+{
+  "method": "Chrome iframe DOM measurements; widths exclude reserved scrollbar where present",
+  "routes": [
+    "/",
+    "/passenger",
+    "/passenger/request",
+    "/passenger/status",
+    "/driver",
+    "/operator",
+    "/experience",
+    "/demo",
+    "/activity"
+  ],
+  "viewport_widths": [
+    320,
+    375,
+    390,
+    430,
+    768,
+    1440
+  ],
+  "checks": 54,
+  "page_horizontal_overflow_failures": 0,
+  "smallest_content_width": 305,
+  "physical_device_testing": false
+}

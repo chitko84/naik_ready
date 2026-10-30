@@ -1,0 +1,50 @@
+{
+  "mode": "real_yolo_inference",
+  "source": "reference_traffic.mp4",
+  "frames_processed": 80,
+  "fps_source": 8.0,
+  "duration_seconds": 10.0,
+  "status_frame_counts": {
+    "OBSERVING": 73,
+    "CLEAR": 7
+  },
+  "event_count": 0,
+  "model": "yolov8n.pt",
+  "simulated": false,
+  "config": {
+    "stop_id": "CYB-DEMO-01",
+    "zone_id": "boarding-zone-01",
+    "zone": [
+      [
+        0.25,
+        0.45
+      ],
+      [
+        0.85,
+        0.45
+      ],
+      [
+        0.85,
+        0.82
+      ],
+      [
+        0.25,
+        0.82
+      ]
+    ],
+    "dwell_seconds": 10.0,
+    "clear_seconds": 1.0,
+    "stationary_tolerance": 0.025,
+    "track_timeout_seconds": 0.75,
+    "match_iou": 0.2,
+    "blocking_classes": [
+      "car",
+      "motorcycle",
+      "truck"
+    ],
+    "confidence": 0.35,
+    "model": "yolov8n.pt",
+    "image_size": 640
+  },
+  "note": "Potential zone obstructions only; no accessibility or 5G validation."
+}

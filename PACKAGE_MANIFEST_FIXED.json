@@ -1,0 +1,1031 @@
+{
+  "release": "Real-life photography 2.5",
+  "format": "sha256",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 104,
+      "sha256": "e9e95c3edd626ad582575eb51606d7d5f0ca86b06eb07a6cbc209279b1fc103f"
+    },
+    {
+      "path": "PACKAGING_VERIFICATION_FIXED.md",
+      "size_bytes": 4014,
+      "sha256": "cb9d25f5b5a38c10cfe693f716a3067a79afbc5f4803cbcd126ecf319ebe6f7f"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4479,
+      "sha256": "d55186c64c2e09a586439493edf389a9eda5e37f1e2d0ff12ca32cfaa6b4bf66"
+    },
+    {
+      "path": "SETUP_GUIDE.md",
+      "size_bytes": 7292,
+      "sha256": "f16ed3c22eaa655acfeb92f3a58c43c0d84c21b9f54cad42375a0f7e3fede0e8"
+    },
+    {
+      "path": "START_WINDOWS.bat",
+      "size_bytes": 55,
+      "sha256": "d1e748c4b5b8e8d1f39fe9b57b7791c255a264c4d33acee2cbdae329e1946270"
+    },
+    {
+      "path": "TEST_REPORT.md",
+      "size_bytes": 8438,
+      "sha256": "9a6d40ec1738fe1ca569ebc212245f3cafe9f1659aaf2eefa18e4e26e6c6c843"
+    },
+    {
+      "path": "ai-cctv/.streamlit/config.toml",
+      "size_bytes": 155,
+      "sha256": "34a9f26e7c5dc27c8453b6cf043cb282febca9e86982947fc09fd32a10026936"
+    },
+    {
+      "path": "ai-cctv/CONTEXT.md",
+      "size_bytes": 22523,
+      "sha256": "c16f31f27a092df3a5e61f05014549634a61972500ff1c88628cacb56554d645"
+    },
+    {
+      "path": "ai-cctv/LICENSE",
+      "size_bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "ai-cctv/NOTICE.md",
+      "size_bytes": 1051,
+      "sha256": "646acc70b16cad44cab73d7fec1782b8210a84fa9398f471747f76ad8e2ce247"
+    },
+    {
+      "path": "ai-cctv/README.md",
+      "size_bytes": 6756,
+      "sha256": "f06338f0969526afbc840905691f807df854fea448e5c8cd39ece946d7a7ede0"
+    },
+    {
+      "path": "ai-cctv/app.py",
+      "size_bytes": 17343,
+      "sha256": "68135534d6c92e1593bfaa32ea5a421cc03e19cf34cef290113e15f529b2e056"
+    },
+    {
+      "path": "ai-cctv/assets/README_ASSETS.md",
+      "size_bytes": 646,
+      "sha256": "0f86e4d318010f293ebc4188db66e470859fb7fde1cb903fb852c8fb1c89363e"
+    },
+    {
+      "path": "ai-cctv/assets/photoreal/ASSET_NOTES.md",
+      "size_bytes": 2742,
+      "sha256": "b8cf594c382f8e062df98251d6948866360ae0101e8ed8fc186707f617a2fa7d"
+    },
+    {
+      "path": "ai-cctv/assets/photoreal/car.png",
+      "size_bytes": 3128054,
+      "sha256": "29c04406679a0df4e1c58820397aa5fcaa6441cd2b8cd8bfb9ecbf40b9bdeba2"
+    },
+    {
+      "path": "ai-cctv/assets/photoreal/clear.png",
+      "size_bytes": 3197675,
+      "sha256": "03badd7d556fb6f57cdc1cf8385439abf3b0e3fee92ebbadbb6b4975a395f91d"
+    },
+    {
+      "path": "ai-cctv/assets/photoreal/cleared.png",
+      "size_bytes": 3091833,
+      "sha256": "5448eacf1b64783ad17f94615d33b9546932bd2a12aa67da02e7e0ca917c854b"
+    },
+    {
+      "path": "ai-cctv/assets/photoreal/motorcycle.png",
+      "size_bytes": 3118216,
+      "sha256": "365a70b0899495d1e25199fe6184722998bff1a9666d0f64cb4ce133d081ef88"
+    },
+    {
+      "path": "ai-cctv/config.json",
+      "size_bytes": 496,
+      "sha256": "c7b184f6408948688bb05facf1594bf36d12f8b0d7dd9b42b156234789c8f571"
+    },
+    {
+      "path": "ai-cctv/console.css",
+      "size_bytes": 3823,
+      "sha256": "f84a3cb0917cac77da9d758fe1c20f5217028700d74960af25b9a1c5e8ae1d36"
+    },
+    {
+      "path": "ai-cctv/core.py",
+      "size_bytes": 4996,
+      "sha256": "5df14ed1c0827132b740f81df270790cdfec1fe9ff938e4c2d12606a2a64dd74"
+    },
+    {
+      "path": "ai-cctv/detect.py",
+      "size_bytes": 3995,
+      "sha256": "60dac203fea101db9be2d30be3b742d392fbb72e4ddee80da586392e8b225494"
+    },
+    {
+      "path": "ai-cctv/docs/VALIDATION_V2.md",
+      "size_bytes": 2040,
+      "sha256": "ff39fb568a45361b7420d46e7cdb4276017c5137a020843953ef1b297fa30f34"
+    },
+    {
+      "path": "ai-cctv/docs/vision_console/01_clear.png",
+      "size_bytes": 961488,
+      "sha256": "a62da610e9764f621f8c98b68fad2b45fc7e18cb9c080d9765eb2dedd0cc1904"
+    },
+    {
+      "path": "ai-cctv/docs/vision_console/02_car.png",
+      "size_bytes": 1119462,
+      "sha256": "8801f44b08c32deb746f71ecb757794e4ed026e5f1733222adf6be43a7e8250f"
+    },
+    {
+      "path": "ai-cctv/docs/vision_console/03_motorcycle.png",
+      "size_bytes": 1086981,
+      "sha256": "9951f6f64f1c4fc732634f9d06651f2054bc6cc799b0139d9877e901bbf1b0c9"
+    },
+    {
+      "path": "ai-cctv/docs/vision_console/04_cleared.png",
+      "size_bytes": 1076809,
+      "sha256": "2fe1b25d74b30bf526266053d168dd9cf405e4400d9f33f41efea57c5c3c219e"
+    },
+    {
+      "path": "ai-cctv/docs/vision_console/05_zone.png",
+      "size_bytes": 179568,
+      "sha256": "a8ab52eb03123b1b52785339b15bb5dff048037d730752b87930939fbf0e39a4"
+    },
+    {
+      "path": "ai-cctv/docs/vision_console/06_history.png",
+      "size_bytes": 189763,
+      "sha256": "f7828cba694e21f1bbbe63a3fbd706df65fb04093d4f5d9b6bff673aaf59f31f"
+    },
+    {
+      "path": "ai-cctv/event_export.py",
+      "size_bytes": 2311,
+      "sha256": "a9569fb74de6f2be6894c6394dee1ee04da3ba908b507481f087c9f0c2e37e31"
+    },
+    {
+      "path": "ai-cctv/examples/sample-obstruction-events.json",
+      "size_bytes": 2831,
+      "sha256": "3104f9868b9fa431bb9bcafa787c8957d84ce7a932c4fc007856ff515798b275"
+    },
+    {
+      "path": "ai-cctv/make_demo.py",
+      "size_bytes": 2153,
+      "sha256": "7dfc77078dfaa94fab99963a28218b7b9d9be3fd862e8dcbdd5a618427c5b820"
+    },
+    {
+      "path": "ai-cctv/outputs/runs/c39d554e87/annotated.mp4",
+      "size_bytes": 57989,
+      "sha256": "bfba99c88ee53cebce2de09b3661096061cc93ff404b0ec82ae1d2f7dfdf7be4"
+    },
+    {
+      "path": "ai-cctv/outputs/runs/c39d554e87/frames.jsonl",
+      "size_bytes": 1114,
+      "sha256": "0ab3b5e1f6af9f3d33f291266a341963a347c91a41ad84efc08e61481491285a"
+    },
+    {
+      "path": "ai-cctv/outputs/runs/c39d554e87/observing.jpg",
+      "size_bytes": 190090,
+      "sha256": "5083196728548c83342e808fa64b3b37b246e491ab9a488dec3c5849f6148693"
+    },
+    {
+      "path": "ai-cctv/outputs/runs/da3235ed66/annotated.mp4",
+      "size_bytes": 1670018,
+      "sha256": "66db0905b1fdfc82ee79303bc4240f21b53f58dd8b09eb07b6985a7db4c7cb13"
+    },
+    {
+      "path": "ai-cctv/outputs/runs/da3235ed66/clear.jpg",
+      "size_bytes": 181961,
+      "sha256": "a9cc12571d2a743c6133461f995b6df84e4055f1c1a457f65c1c8fda2b60094f"
+    },
+    {
+      "path": "ai-cctv/outputs/runs/da3235ed66/effective_config.json",
+      "size_bytes": 530,
+      "sha256": "455c10338ab6e842ddd50127e29a49eb5629adfc022e1b820b61136871677646"
+    },
+    {
+      "path": "ai-cctv/outputs/runs/da3235ed66/events.json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "ai-cctv/outputs/runs/da3235ed66/frames.jsonl",
+      "size_bytes": 66912,
+      "sha256": "5008f2d47a151266d5e101d93ec474da10a1bf47c20ecd74f50d1e878a0ca250"
+    },
+    {
+      "path": "ai-cctv/outputs/runs/da3235ed66/observing.jpg",
+      "size_bytes": 190090,
+      "sha256": "5083196728548c83342e808fa64b3b37b246e491ab9a488dec3c5849f6148693"
+    },
+    {
+      "path": "ai-cctv/outputs/runs/da3235ed66/summary.json",
+      "size_bytes": 991,
+      "sha256": "8a01bb9fc86a0312c6fc46a0215f5fd8058b7a7255c1617acab7c4cb472120f5"
+    },
+    {
+      "path": "ai-cctv/outputs/simulation/01_clear_bus_stop.png",
+      "size_bytes": 506990,
+      "sha256": "58ed40ab723c0e3873475aeabec32fd594dc2246ea1ece3e5b0ad8caac6607f6"
+    },
+    {
+      "path": "ai-cctv/outputs/simulation/02_car_blocking.png",
+      "size_bytes": 494071,
+      "sha256": "928cbbaf0386cc2c228c7942255527681731dffbfda17e89d1177bfd960798df"
+    },
+    {
+      "path": "ai-cctv/outputs/simulation/03_motorcycle_blocking.png",
+      "size_bytes": 523339,
+      "sha256": "6d4f945d7082ce224f4c799eccd5a45edb3aeeae156d1652a3aa6ee5366471b1"
+    },
+    {
+      "path": "ai-cctv/outputs/simulation/04_car_cleared.png",
+      "size_bytes": 508782,
+      "sha256": "476017fe2c717de8bb93284c21f7363dca26888554e57b531858409a733597ef"
+    },
+    {
+      "path": "ai-cctv/outputs/simulation/05_obstruction_cleared.png",
+      "size_bytes": 508750,
+      "sha256": "375da41f2859f63fb41820a9230e9fb5c23bdb62cba6b07d21b2fd2a767a3218"
+    },
+    {
+      "path": "ai-cctv/outputs/simulation/annotated.mp4",
+      "size_bytes": 201028,
+      "sha256": "c15fc39231a53fb47f3fdf17959c7b6d97fc0b09ab874439dab94f72a2da88b8"
+    },
+    {
+      "path": "ai-cctv/outputs/simulation/events.json",
+      "size_bytes": 4016,
+      "sha256": "351d2ca8cef7483927f28d645516ecc391ab703f69b2cea039529fec9cf671a1"
+    },
+    {
+      "path": "ai-cctv/outputs/simulation/frames.jsonl",
+      "size_bytes": 62946,
+      "sha256": "02b5fd1d5b2339a7704a89fb8d6e758f6ffd6f98e3ada5ae71adf930d01cd357"
+    },
+    {
+      "path": "ai-cctv/outputs/simulation/preview.webm",
+      "size_bytes": 150284,
+      "sha256": "93d0b886731a836660ed4af9ad96b01442c5d2a9459c85d383ca2a044e88396a"
+    },
+    {
+      "path": "ai-cctv/outputs/simulation/summary.json",
+      "size_bytes": 203,
+      "sha256": "a07db5c808190c20eb12c7444197b2e5a2aecbc81771504c9fd292606e0671db"
+    },
+    {
+      "path": "ai-cctv/photo_scenarios.py",
+      "size_bytes": 2190,
+      "sha256": "a9782e6d937c32d9ac07ece8e40b3a247234833f0edd28021e199b8926e0d6f5"
+    },
+    {
+      "path": "ai-cctv/requirements-tested.txt",
+      "size_bytes": 218,
+      "sha256": "66c97801ce61e9081b144d0cf52ee299e2a2f63ec0301c42f9a72d9a8bcd5a8b"
+    },
+    {
+      "path": "ai-cctv/requirements.txt",
+      "size_bytes": 92,
+      "sha256": "59dc8bd4bfc2cbfbedd0307947d58f470fd33b88dc654e6a453a5b098522291f"
+    },
+    {
+      "path": "ai-cctv/scene_design.py",
+      "size_bytes": 7217,
+      "sha256": "094bf8000eceba28a128eb074506422f9eb5153e5365d78d8513332cfe75f48f"
+    },
+    {
+      "path": "ai-cctv/start_demo.bat",
+      "size_bytes": 199,
+      "sha256": "61dfb355b7a39edb3c95dcd5e7305c8abfd62a41b91f378cafc6226eaafee7da"
+    },
+    {
+      "path": "ai-cctv/tests/test_dashboard.py",
+      "size_bytes": 667,
+      "sha256": "87f923283ec1b2b72fdb39b127f71fdc5b0d9346308e679cb9193f07b075402a"
+    },
+    {
+      "path": "ai-cctv/tests/test_event_export.py",
+      "size_bytes": 1178,
+      "sha256": "097240f6af805bedcd037d831aa53c77d9b0e25292fee4a38dca906013ae39b9"
+    },
+    {
+      "path": "ai-cctv/tests/test_media.py",
+      "size_bytes": 725,
+      "sha256": "a995e0adb5cd26b62ea2e12f6f9e01e6ca8a52fbfdd562675ba3ad3d0253899b"
+    },
+    {
+      "path": "ai-cctv/tests/test_monitor.py",
+      "size_bytes": 3274,
+      "sha256": "995568ab065f93551a50cfd1481a503230a2b2508e39036d62a3fabb429ca19b"
+    },
+    {
+      "path": "ai-cctv/vision.py",
+      "size_bytes": 3168,
+      "sha256": "34f3dd019ca210bac9504a678655c6772ec8d951a7ba0b851404e03b82a49ebe"
+    },
+    {
+      "path": "ai-cctv/yolov8n.pt",
+      "size_bytes": 6549796,
+      "sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+    },
+    {
+      "path": "backend/.gitignore",
+      "size_bytes": 29,
+      "sha256": "aac229cdbd29bfaad20b083c8ba132dfb686821b3d148254e0a355611b35632d"
+    },
+    {
+      "path": "backend/__init__.py",
+      "size_bytes": 42,
+      "sha256": "868dbd9eacb0bf25ef0ed0f4dec88f42b4cbc1400bf4297af97abe81faea0a6e"
+    },
+    {
+      "path": "backend/main.py",
+      "size_bytes": 10996,
+      "sha256": "32f6da6b877b51651cd173983528bfcdb6dad855817361056123e8db3554374f"
+    },
+    {
+      "path": "backend/requirements-test.txt",
+      "size_bytes": 49,
+      "sha256": "d4cc108e8dfee07a65103f68671d4ea79309fb1f5604309b8c9b11896d471c5d"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "size_bytes": 136,
+      "sha256": "a70d3e6d85adb3612c99e5047373fd1e0b93491f79bdfb1e2f1b71278a071523"
+    },
+    {
+      "path": "backend/tests/test_api.py",
+      "size_bytes": 3994,
+      "sha256": "324234f1825b8edb1b82f472a8df5890dec587e69dfa53b2286146fe2ff39092"
+    },
+    {
+      "path": "digital-twin/EXPORT_REPORT.json",
+      "size_bytes": 1766,
+      "sha256": "e37e761b50a72c06beaa2bc6e166280031c98ca362d5a43e2845119e2aecbe17"
+    },
+    {
+      "path": "digital-twin/NaikReady_5G_Final_Digital_Twin.blend",
+      "size_bytes": 1108108,
+      "sha256": "394ad5d0211a1a1e8b555536d99f511bca6addf602f761a143b10bc76e335571"
+    },
+    {
+      "path": "digital-twin/ORIGINAL_README.txt",
+      "size_bytes": 728,
+      "sha256": "1aed99bec8dfe4a33bbdc6e7261e1e168528d1bfffa40665f53ff9ec7a9f29d3"
+    },
+    {
+      "path": "digital-twin/export_browser.py",
+      "size_bytes": 3413,
+      "sha256": "c2ea45ac9ebebc589e69bb34f10f7e8e83500cea70c5ee06da13eca0ed725504"
+    },
+    {
+      "path": "digital-twin/render_fallback.py",
+      "size_bytes": 2039,
+      "sha256": "d36a7f2264f1e328767fac9ad2201f63a32fc2faf3e79c0ae9d145a048c69daf"
+    },
+    {
+      "path": "documentation/API_TEST_OUTPUT.txt",
+      "size_bytes": 1729,
+      "sha256": "c19764b19e00eca00cd8084fc83e8c5e4c77b20815f4488eb7964624359c6ba7"
+    },
+    {
+      "path": "documentation/ARCHITECTURE.md",
+      "size_bytes": 4270,
+      "sha256": "9af2894954b2fbb825af3829b5cc4ad0a99eee0f3a26ece277cc9a3bca6028d4"
+    },
+    {
+      "path": "documentation/BUILD_OUTPUT.txt",
+      "size_bytes": 1812,
+      "sha256": "68d17709a6810450bc8c8731034ca99a8af5b1e25c3e3068990213e02be2aae1"
+    },
+    {
+      "path": "documentation/CHANGES.md",
+      "size_bytes": 1821,
+      "sha256": "61e527453604d65d8f8149cc04ede8d186573c4498e3597b8b9693db1f12b2e3"
+    },
+    {
+      "path": "documentation/FEATURE_INVENTORY.md",
+      "size_bytes": 3114,
+      "sha256": "281baa8ad1fd50c312663149fc13047e819483cad8ac4a348e7a0500e20b2cf2"
+    },
+    {
+      "path": "documentation/FINAL_POLISH.md",
+      "size_bytes": 1605,
+      "sha256": "4e1778d2a19260c030939ca724a1b486a88c7462cf50e878d2544ab0adcdfc8c"
+    },
+    {
+      "path": "documentation/FINAL_POLISH_BUILD.txt",
+      "size_bytes": 1812,
+      "sha256": "c5766be92653594fbfb409686c0dd82f7954141b39f444f9d9f68cec45f46231"
+    },
+    {
+      "path": "documentation/FINAL_POLISH_TESTS.txt",
+      "size_bytes": 2755,
+      "sha256": "d03a58f18a5523f1ae4aa79f56669fdc70eb940f05870073b739cf6079fed641"
+    },
+    {
+      "path": "documentation/FIXED_API_TEST_OUTPUT.txt",
+      "size_bytes": 1735,
+      "sha256": "a85d6168ef17c12178de54a92fd62369e30e26c98ecf4ecca67036ab24402e4d"
+    },
+    {
+      "path": "documentation/FIXED_BUILD_OUTPUT.txt",
+      "size_bytes": 1812,
+      "sha256": "22283aa9afa962276697d039db7a69a8941769fdf76f9ad1531a4a7806b8fc23"
+    },
+    {
+      "path": "documentation/FIXED_FRONTEND_TEST_OUTPUT.txt",
+      "size_bytes": 1824,
+      "sha256": "d392770c430d88e9cff00942c679f353de4edfbe493b4091603b7bf188624ae4"
+    },
+    {
+      "path": "documentation/FIXED_NPM_CI_OUTPUT.txt",
+      "size_bytes": 332,
+      "sha256": "08a0365154b34e31576c230ceee3135ae16a64feef20ef9900965777f2582d2e"
+    },
+    {
+      "path": "documentation/FIXED_ORIGINAL_AI_TEST_OUTPUT.txt",
+      "size_bytes": 99,
+      "sha256": "64e51e46fd45036292c419758e90d9d994c56edb31b9bba732dc9b8b67d39f37"
+    },
+    {
+      "path": "documentation/FRONTEND_TEST_OUTPUT.txt",
+      "size_bytes": 1826,
+      "sha256": "0af9d7e6d9242d612789bca9a533f5d03d15d73f05b334abc0a2a96e31087694"
+    },
+    {
+      "path": "documentation/INTERACTION_AUDIT.md",
+      "size_bytes": 2821,
+      "sha256": "dc360ec6043ebff6da9c25d904159acd8d88f843b4f7f215ed755420d94fa3f1"
+    },
+    {
+      "path": "documentation/MORE_PHOTOS_BUILD.txt",
+      "size_bytes": 1812,
+      "sha256": "78dfdbbcb2fa4869a9da37c469b639078fa09d7ddb34a9912682feae47a7c037"
+    },
+    {
+      "path": "documentation/MORE_PHOTOS_TESTS.txt",
+      "size_bytes": 2753,
+      "sha256": "d3b37d9a9d6821386748d28a26be94fea9959db720394a1a290974ca4fb49050"
+    },
+    {
+      "path": "documentation/MORE_REAL_PHOTOS.md",
+      "size_bytes": 1884,
+      "sha256": "b4447f9a91746b6279360f3b069ca6abd048b8243ffa11d7b28691969bcbe175"
+    },
+    {
+      "path": "documentation/ORIGINAL_AI_TEST_OUTPUT.txt",
+      "size_bytes": 99,
+      "sha256": "3ba960689e2d9fe1018ad2e441f9bf35e0bbdcdf34f13209d8c59125f2a0cb02"
+    },
+    {
+      "path": "documentation/PHOTO_CREDITS.md",
+      "size_bytes": 3949,
+      "sha256": "897ae0ca421e2076e5a313e5b748a8fd7134da00985e9c9c6dcb5ae744b18d60"
+    },
+    {
+      "path": "documentation/PHOTO_REFRESH.md",
+      "size_bytes": 1370,
+      "sha256": "fee957b4a24a316711e282c1dce842910227a402f4a4cc0ed1a28f7833d4fd32"
+    },
+    {
+      "path": "documentation/PHOTO_REFRESH_BUILD.txt",
+      "size_bytes": 1812,
+      "sha256": "bc9125da9363678017ff4e3fc87e06e70ff52109e14a6598a0ec959080374550"
+    },
+    {
+      "path": "documentation/PHOTO_REFRESH_TESTS.txt",
+      "size_bytes": 2752,
+      "sha256": "eac07f51267e8ff0ad27117264fd6f037045e6cc96350d0fb1f018cf6dbe46e6"
+    },
+    {
+      "path": "documentation/RESPONSIVE_RESULTS.json",
+      "size_bytes": 483,
+      "sha256": "9874337263d474762b586bac863cf9498f2008e2744355285c09efb7685c43d3"
+    },
+    {
+      "path": "documentation/SIMPLE_UX_ACCEPTANCE.md",
+      "size_bytes": 4222,
+      "sha256": "d580b316f32f1656b0b65e7e3f421e6235a91d682bd7c5a622f7faea876abc03"
+    },
+    {
+      "path": "documentation/SIMPLE_UX_BACKEND_TESTS.txt",
+      "size_bytes": 591,
+      "sha256": "4289d85757d45c08bd5af3ad37a96c1cbff6fdc99b91ef964a32dedde5d516d3"
+    },
+    {
+      "path": "documentation/SIMPLE_UX_BUILD.txt",
+      "size_bytes": 1812,
+      "sha256": "60ea1696122ce45267696d02798dd2dbdbd44bf9d85b648151ca673d27d29e65"
+    },
+    {
+      "path": "documentation/SIMPLE_UX_TESTS.txt",
+      "size_bytes": 2754,
+      "sha256": "0b2e58bb71a92307209c330c1e19fb40ecedb69fb04131dd88e45e1157191865"
+    },
+    {
+      "path": "documentation/SOURCE_FILE_AUDIT_FIXED.json",
+      "size_bytes": 11807,
+      "sha256": "5b127ac89f9e9921817ccc16508bd09b1bd8a998ad4ecb3a89e69769ee424951"
+    },
+    {
+      "path": "documentation/TESTED_PYTHON_VERSIONS.json",
+      "size_bytes": 297,
+      "sha256": "0f21698d785da7968e4a5e9176935bc6e2381065a90d6fa451554cbfd12fbc3b"
+    },
+    {
+      "path": "documentation/UPDATED_API_TESTS.txt",
+      "size_bytes": 2024,
+      "sha256": "d51e6932b031161132c19bd1a7f51625528ec4e67b03db6d7e01dbefdddea3d8"
+    },
+    {
+      "path": "documentation/UPDATED_BUILD.txt",
+      "size_bytes": 1812,
+      "sha256": "f1a4b4d23127c59c60d4e6bdd10460d4db14cd3de38fb51622d7eed1b08cfc7b"
+    },
+    {
+      "path": "documentation/UPDATED_FRONTEND_TESTS.txt",
+      "size_bytes": 2755,
+      "sha256": "01700c49ab10dfe302bc4fcf86cacc753a80ca955671d63850b4563d08ebf723"
+    },
+    {
+      "path": "documentation/UPDATED_ORIGINAL_AI_TESTS.txt",
+      "size_bytes": 99,
+      "sha256": "f722f4f126bdcfb1fa46da26d2475c80698070e08fc6c127bbbdfba5503cccb5"
+    },
+    {
+      "path": "documentation/UPDATED_RESPONSIVE.json",
+      "size_bytes": 325,
+      "sha256": "69a44dc22cbcc73a20a78c489b26edd5196b0519fcf02c68edab17ee9299ab4b"
+    },
+    {
+      "path": "documentation/UPDATE_2_1.md",
+      "size_bytes": 3773,
+      "sha256": "67b37fa46183f456973ad53f3d8ab0d0eaa91576af93443268df9d08a65db0de"
+    },
+    {
+      "path": "frontend/CONTEXT.md",
+      "size_bytes": 21849,
+      "sha256": "64521ba35ebb9ffa80ff96c96be7fa5e3471e5f1cdb48ce65c52ae3b05c64531"
+    },
+    {
+      "path": "frontend/MASTER_PROMPT.md",
+      "size_bytes": 49763,
+      "sha256": "054605941af342b83f94f9dd5ab60530ebf529bf690b60ba95dabfd359b0adf1"
+    },
+    {
+      "path": "frontend/ORIGINAL_README.md",
+      "size_bytes": 7969,
+      "sha256": "621276cea23939e0adc0eec3a873c71c9d84e7ce0e358f814ab646f1c618c07d"
+    },
+    {
+      "path": "frontend/QA_REPORT.md",
+      "size_bytes": 3295,
+      "sha256": "4f7f88a1884ab2e82c5e7a869a657b561367508ca150be49a569616a21180740"
+    },
+    {
+      "path": "frontend/README.md",
+      "size_bytes": 273,
+      "sha256": "11b2d277f1dfd4c1c149cedb1aa0a9ddf68f3be8f4d1f0ad27d3c47036d72650"
+    },
+    {
+      "path": "frontend/design-reference/driver-dashboard.png",
+      "size_bytes": 2303064,
+      "sha256": "d29ea8455686e31cad471f14c494e2c5004902d39a08aaa6259cbc485585d4c7"
+    },
+    {
+      "path": "frontend/design-reference/operator-dashboard.png",
+      "size_bytes": 2331668,
+      "sha256": "cd697b5651c74cf6337063587acc34a0d3ed332e90924d5987b04d5bc29a9d1e"
+    },
+    {
+      "path": "frontend/design-reference/passenger-mobile.png",
+      "size_bytes": 2436744,
+      "sha256": "4bb0c2ff03bc2623d08c2761259935bebd644f77f8976a590e2f9fb45f384636"
+    },
+    {
+      "path": "frontend/index.html",
+      "size_bytes": 561,
+      "sha256": "0148c2b880d461c7e08d2bcc6281ed4b079bf40b64376ddfcd2f8c8b3cfef299"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "size_bytes": 92401,
+      "sha256": "58b3b044d42e5dbf43a7b9a40ce0c68a9c9aa7e5626c8be6b100d7bf249e2337"
+    },
+    {
+      "path": "frontend/package.json",
+      "size_bytes": 857,
+      "sha256": "f1539badcef3a10dad8187c2d94131362a31d6d5f8b8a4879b77f80c5adda675"
+    },
+    {
+      "path": "frontend/public/demo-assets/sample-obstruction-event.json",
+      "size_bytes": 516,
+      "sha256": "a75f27b8b892a124d0c25fcbe0fa0aadba110def242394ac1a48516968ec60e4"
+    },
+    {
+      "path": "frontend/public/favicon.svg",
+      "size_bytes": 296,
+      "sha256": "dc8f26caf43e2fc3e99c0134251e3cf8e894c16cc66f105ae1331da7b64f493a"
+    },
+    {
+      "path": "frontend/public/map/cyberjaya.geojson",
+      "size_bytes": 789838,
+      "sha256": "b895d94b9e75bea0f6362cf23700671273dd9e534a5df13b64cb4213026998d8"
+    },
+    {
+      "path": "frontend/public/photos/accessible-bus-door.jpg",
+      "size_bytes": 155679,
+      "sha256": "1b98491b61d9076e26bfbdab5b594482b325fa4be7ca7eb6546a71cc50e3de80"
+    },
+    {
+      "path": "frontend/public/photos/accessible-bus-stop.jpg",
+      "size_bytes": 262289,
+      "sha256": "78a00b316a0b85e0ffb5070945a6fbad92b1c56b2273896f64d8461ee25a5e83"
+    },
+    {
+      "path": "frontend/public/photos/city-streets.jpg",
+      "size_bytes": 253497,
+      "sha256": "4e3ef2fa4774897dbb38c57167ea14fc9e7969e808b4e1183bd9d4986ce92c3b"
+    },
+    {
+      "path": "frontend/public/photos/commuter-journeys.jpg",
+      "size_bytes": 189641,
+      "sha256": "247a92bb836447f2c82a4d4a42eefc9fe4a68e9a9a8b84997c41573b32be896f"
+    },
+    {
+      "path": "frontend/public/photos/driver-view.jpg",
+      "size_bytes": 124685,
+      "sha256": "9b043495534aa67f7d9ad132303ba0de75f0b9e6ebf190ea3f633193a96dd667"
+    },
+    {
+      "path": "frontend/public/photos/kl-commuters.jpg",
+      "size_bytes": 334440,
+      "sha256": "0fe4a1dc7f3f45d9dafdc2698cb33a747e80cf8e98f7d2e3fe8c0efff8ca82dd"
+    },
+    {
+      "path": "frontend/public/photos/kl-evening-stop.jpg",
+      "size_bytes": 499361,
+      "sha256": "c8bc55656626e6b93fcf72f40e5c621ea4503460cc993341f3d56c4b728bbe36"
+    },
+    {
+      "path": "frontend/public/photos/kl-skyline.jpg",
+      "size_bytes": 503675,
+      "sha256": "06bafebc028cb60f898f4bcf7af35fe343b345d36d90c27743677fbd632a8271"
+    },
+    {
+      "path": "frontend/public/photos/kuala-lumpur-bus.jpg",
+      "size_bytes": 481858,
+      "sha256": "e8c5ba0dc984ab13173e404225344e43dde1c05531e3a515ad83511ed498b87c"
+    },
+    {
+      "path": "frontend/public/photos/responsive/accessible-bus-door-640.webp",
+      "size_bytes": 14976,
+      "sha256": "66b1c13e8f877a8eac252033b3fbeb91197ac360a5f06c5cb968606f8f171803"
+    },
+    {
+      "path": "frontend/public/photos/responsive/accessible-bus-stop-640.webp",
+      "size_bytes": 55532,
+      "sha256": "710883fdfbd924694afb225042f3912a051adf69a97dd3d0943acd17a22a40cb"
+    },
+    {
+      "path": "frontend/public/photos/responsive/city-streets-640.webp",
+      "size_bytes": 42560,
+      "sha256": "d14a42f0df928740da900462dada61ea8abdb8718e99592b827dc5017b43d106"
+    },
+    {
+      "path": "frontend/public/photos/responsive/commuter-journeys-640.webp",
+      "size_bytes": 22514,
+      "sha256": "9f399444d74346f1d521826ca6df902ec1d99e78d254b2595b1badc54d1a932a"
+    },
+    {
+      "path": "frontend/public/photos/responsive/driver-view-640.webp",
+      "size_bytes": 20506,
+      "sha256": "c73962c35e3de104e1d4301af7f53a16609d374e9b6f4b4faf627a1fbea8fb32"
+    },
+    {
+      "path": "frontend/public/photos/responsive/kl-commuters-640.webp",
+      "size_bytes": 55516,
+      "sha256": "ffd17c86130b18c910ac8d6b26a4cbe57e3e9ccd11e26a6be3da72335f39fcd5"
+    },
+    {
+      "path": "frontend/public/photos/responsive/kl-evening-stop-640.webp",
+      "size_bytes": 63882,
+      "sha256": "d18dd6544c900b6e9df1601242cc00d903bc7783054c861b085aa5038595ccc2"
+    },
+    {
+      "path": "frontend/public/photos/responsive/kl-skyline-640.webp",
+      "size_bytes": 69668,
+      "sha256": "1b675354227dc2338817b27a8ff61ace1dfa0144377e76c5a5ef9332f35d7b49"
+    },
+    {
+      "path": "frontend/public/photos/responsive/kuala-lumpur-bus-640.webp",
+      "size_bytes": 91804,
+      "sha256": "25e772b63ad4d6a6fccfeb9cb626ebfd27feb3a751208d3348b7b3dfade7f602"
+    },
+    {
+      "path": "frontend/public/photos/responsive/wheelchair-journey-640.webp",
+      "size_bytes": 48238,
+      "sha256": "7530b8b9827fded15669a134c1f716049a4774e4b65e2102b1771e89d297379f"
+    },
+    {
+      "path": "frontend/public/photos/wheelchair-journey.jpg",
+      "size_bytes": 266599,
+      "sha256": "8e0fc03e2c60ce9944c37f4995e892b6405037388e39b91a9b5e19b024a219af"
+    },
+    {
+      "path": "frontend/public/twin/.blocked.glb.eaVw5V",
+      "size_bytes": 1310720,
+      "sha256": "7672d389a692acff99416e703adec2857a89796a57fce81f036e2c3b79ecb377"
+    },
+    {
+      "path": "frontend/public/twin/assistance.glb",
+      "size_bytes": 7045716,
+      "sha256": "19761ee49905cb71df27c61bd60c946d1c0f8e6dfbb7890ba3f03f60db7f66eb"
+    },
+    {
+      "path": "frontend/public/twin/assistance.jpg",
+      "size_bytes": 131777,
+      "sha256": "518b3325a08ca048c822350bf84707271556a00857187d83b6cc53d436dfe6c7"
+    },
+    {
+      "path": "frontend/public/twin/blocked.glb",
+      "size_bytes": 6654208,
+      "sha256": "6f535594ef137be8cd9e97adddd0fc95eec2f852be043b696afff20b4654493c"
+    },
+    {
+      "path": "frontend/public/twin/blocked.jpg",
+      "size_bytes": 127584,
+      "sha256": "fb2e82b948daee87f623f784488520d2d4caa900d8e2ef289269b5442581c88a"
+    },
+    {
+      "path": "frontend/public/twin/normal.glb",
+      "size_bytes": 5391244,
+      "sha256": "8fb11b987f53e723da902f2b364cc3f7e8d6943e0e0352102df6d0ba4fd273e0"
+    },
+    {
+      "path": "frontend/public/twin/normal.jpg",
+      "size_bytes": 118483,
+      "sha256": "6a9e3d0cfd42e5325a81bfc7c7569fc18bcb166b8012d5410ccdddbe0167ce97"
+    },
+    {
+      "path": "frontend/public/twin/resolved.glb",
+      "size_bytes": 6273496,
+      "sha256": "efc5d16b1e0dd28f95b6573254ea98151d1c73f931180c030a19b940ef26b322"
+    },
+    {
+      "path": "frontend/public/twin/resolved.jpg",
+      "size_bytes": 120190,
+      "sha256": "e0380b7463018bd1273ec00c76dd6ea49c118bd93b32a2b49b383736d7cc1c90"
+    },
+    {
+      "path": "frontend/public/vision/car.png",
+      "size_bytes": 494071,
+      "sha256": "928cbbaf0386cc2c228c7942255527681731dffbfda17e89d1177bfd960798df"
+    },
+    {
+      "path": "frontend/public/vision/clear.png",
+      "size_bytes": 506990,
+      "sha256": "58ed40ab723c0e3873475aeabec32fd594dc2246ea1ece3e5b0ad8caac6607f6"
+    },
+    {
+      "path": "frontend/public/vision/cleared.png",
+      "size_bytes": 508782,
+      "sha256": "476017fe2c717de8bb93284c21f7363dca26888554e57b531858409a733597ef"
+    },
+    {
+      "path": "frontend/public/vision/motorcycle.png",
+      "size_bytes": 523339,
+      "sha256": "6d4f945d7082ce224f4c799eccd5a45edb3aeeae156d1652a3aa6ee5366471b1"
+    },
+    {
+      "path": "frontend/public/vision/recorded.jpg",
+      "size_bytes": 190090,
+      "sha256": "5083196728548c83342e808fa64b3b37b246e491ab9a488dec3c5849f6148693"
+    },
+    {
+      "path": "frontend/public/vision/recorded.json",
+      "size_bytes": 1117,
+      "sha256": "291da0231055b0d2216a2e35ae4a4f7f2d6a11b1c6c06c054097078b679ac9f4"
+    },
+    {
+      "path": "frontend/public/vision/recorded.mp4",
+      "size_bytes": 1670018,
+      "sha256": "66db0905b1fdfc82ee79303bc4240f21b53f58dd8b09eb07b6985a7db4c7cb13"
+    },
+    {
+      "path": "frontend/public/vision/simulation.json",
+      "size_bytes": 3294,
+      "sha256": "1be3534716a28da634c5518f9d560920ddb5603d08b4368c6fc55f31abac6a55"
+    },
+    {
+      "path": "frontend/public/vision/simulation.mp4",
+      "size_bytes": 201028,
+      "sha256": "c15fc39231a53fb47f3fdf17959c7b6d97fc0b09ab874439dab94f72a2da88b8"
+    },
+    {
+      "path": "frontend/scripts/dev.mjs",
+      "size_bytes": 1236,
+      "sha256": "f76228beb1da99417654bc906f5ec5bd9ae3f4f6a6d80db576daba87a76e9de1"
+    },
+    {
+      "path": "frontend/src/app/App.tsx",
+      "size_bytes": 1778,
+      "sha256": "55db9f441febee8228959a90ce947f30159b7455908ec919bad677009e124dc2"
+    },
+    {
+      "path": "frontend/src/app/demoContext.tsx",
+      "size_bytes": 1427,
+      "sha256": "3d6ceee0a31843130d0997f23b2884e902cf927a3e767ea57c0b494723be810e"
+    },
+    {
+      "path": "frontend/src/app/demoData.ts",
+      "size_bytes": 1799,
+      "sha256": "3fbeef93557aa70d686c9ad73acb99b69c2313974ad3ad4ce39b2bec2f0df584"
+    },
+    {
+      "path": "frontend/src/app/demoReducer.ts",
+      "size_bytes": 15840,
+      "sha256": "a6c71b69ee9f3102bfdc80b6e646127212f3925f83fcef22273737b0b817a394"
+    },
+    {
+      "path": "frontend/src/app/demoTypes.ts",
+      "size_bytes": 3922,
+      "sha256": "3e7e42a1b397f208fc4398d9f1de61bfb556d146cf029511fb47ed0ae66203f7"
+    },
+    {
+      "path": "frontend/src/assets/naikready-logo.svg",
+      "size_bytes": 889,
+      "sha256": "8ba6a646e4061f00d0fbf66b6b19b58a840306d2d85db9ceb4d4c80b6c051d7a"
+    },
+    {
+      "path": "frontend/src/components/DigitalTwin.tsx",
+      "size_bytes": 6777,
+      "sha256": "fcc7f90b0cb3601f781de1558ed1f95c2dd48f4e73a475c8999006dcab3fbcb1"
+    },
+    {
+      "path": "frontend/src/components/JourneyPhotography.tsx",
+      "size_bytes": 1250,
+      "sha256": "73ad4ec657d22ff8264d2dd71400e1202f9a9508ca17c5d7d652c02c67254c8a"
+    },
+    {
+      "path": "frontend/src/components/JourneyRibbon.tsx",
+      "size_bytes": 851,
+      "sha256": "a4b7994f428b5d370ea451df89239df915663707e0a6781dc3491180d08fa9aa"
+    },
+    {
+      "path": "frontend/src/components/PhotoBanner.tsx",
+      "size_bytes": 802,
+      "sha256": "c7807bed06d99a296d25915b29d993d2d7442ebf99ffb828b1e3741de4773fb1"
+    },
+    {
+      "path": "frontend/src/components/RequestTimeline.tsx",
+      "size_bytes": 2292,
+      "sha256": "3275c498e621023dcec4047f821f8d40840ea7dd9eec0c4e6be93486392e6661"
+    },
+    {
+      "path": "frontend/src/components/RouteMap.tsx",
+      "size_bytes": 8662,
+      "sha256": "8abfa0c44e7f1832e9691c203b0410df67c512576e5fdba8034c1f96d4c70235"
+    },
+    {
+      "path": "frontend/src/components/ScenarioVisual.tsx",
+      "size_bytes": 4956,
+      "sha256": "e75bd3e3ad490faa96b8b602dd6b4a7287f50596d9d59ff136f1e2fe7853dcf1"
+    },
+    {
+      "path": "frontend/src/components/SchematicRouteMap.tsx",
+      "size_bytes": 6385,
+      "sha256": "582791581427dbc3c41a1dcff1ab6916b4e81b17776a53b240fe96bc92ef6a58"
+    },
+    {
+      "path": "frontend/src/components/SchematicTwin.tsx",
+      "size_bytes": 5392,
+      "sha256": "2bb9ed2d9ed90735d2af85b7439cd8ae38b732f57a450e2c658af784ddcb014a"
+    },
+    {
+      "path": "frontend/src/components/TransitPhoto.tsx",
+      "size_bytes": 4782,
+      "sha256": "106bcd372154ccea3ae5e962012ca55387298e8738019155ca296671c4d064c0"
+    },
+    {
+      "path": "frontend/src/components/UI.tsx",
+      "size_bytes": 6255,
+      "sha256": "30795324ad21549165261efb3197556f30b42ccc78500e98458f16b8108413a2"
+    },
+    {
+      "path": "frontend/src/components/VisionConsole.tsx",
+      "size_bytes": 14289,
+      "sha256": "48b4d5722bdd5a76d281f129421eed47d1d34cf35518607a23cd9693a40b29f6"
+    },
+    {
+      "path": "frontend/src/components/VisualMotion.tsx",
+      "size_bytes": 1028,
+      "sha256": "d3685c821199a694a12cc5cd1a1bd603cc23534bb4010789a9784c884ba6a08a"
+    },
+    {
+      "path": "frontend/src/integrations/analysisClient.ts",
+      "size_bytes": 2806,
+      "sha256": "7954902951d9a84c44f840ca0c10c206c81ab894bdbb3d0b31cbf2b4e7972979"
+    },
+    {
+      "path": "frontend/src/integrations/digitalTwinAdapter.ts",
+      "size_bytes": 944,
+      "sha256": "3a5a66890071ca4a5bcb00a040b6189b96dcd9daa6e1983ba3e42ff8a1348083"
+    },
+    {
+      "path": "frontend/src/integrations/eventValidator.ts",
+      "size_bytes": 3367,
+      "sha256": "b5aeab2e13f42fe7644ee4a84ba13b31a66fd967dcfd9af19d5e0a2832a71617"
+    },
+    {
+      "path": "frontend/src/integrations/routeGeometry.ts",
+      "size_bytes": 1396,
+      "sha256": "ae7e392b826835a84fc99ffbc10a80ceec73d953f4f49d3c7f7b5cc4ae4982ae"
+    },
+    {
+      "path": "frontend/src/integrations/twinScene.ts",
+      "size_bytes": 743,
+      "sha256": "2dfc29b8a393084dbfca4e7873b21fd0bba401428530df3de2dc20d75cc567d7"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "size_bytes": 266,
+      "sha256": "a34b08e4c15b1a745929e9d96300399224bde6a4d0b2447597bdf18637174177"
+    },
+    {
+      "path": "frontend/src/pages/Activity.tsx",
+      "size_bytes": 3126,
+      "sha256": "d3e6ddc8965df64f17ac7e9f15ae70060f931760c6e1ae6b7d357da7526b5944"
+    },
+    {
+      "path": "frontend/src/pages/Driver.tsx",
+      "size_bytes": 12899,
+      "sha256": "4d0e0023050646c32076505a04da0e61690433b5e06d8bf551db15af3f839b2d"
+    },
+    {
+      "path": "frontend/src/pages/Experience.tsx",
+      "size_bytes": 3250,
+      "sha256": "0627f144086d51361425c19e2bd15efcd1e3b5ea2d5d3706d42c45f8e5c610a0"
+    },
+    {
+      "path": "frontend/src/pages/Operator.tsx",
+      "size_bytes": 18517,
+      "sha256": "dafc6fec7ae8d8b61ef8400b724b461ad9149851b9ffc58b06ee50a44fb5e2d4"
+    },
+    {
+      "path": "frontend/src/pages/Passenger.tsx",
+      "size_bytes": 11907,
+      "sha256": "7c69507155f287016deb2ff19be25f2be403a829ff293f889fbbb8eb79e5e24b"
+    },
+    {
+      "path": "frontend/src/pages/ScenarioLab.tsx",
+      "size_bytes": 17356,
+      "sha256": "e46e565e9a51b0b7a17a4726735ece37382a27e31cbdee4de239f9806a3c1be1"
+    },
+    {
+      "path": "frontend/src/pages/Welcome.tsx",
+      "size_bytes": 6958,
+      "sha256": "efb6c16991bf0eade179ea535e6c9bfff1c07b9f3ddaa1582716885a95d2215d"
+    },
+    {
+      "path": "frontend/src/styles/globals.css",
+      "size_bytes": 104346,
+      "sha256": "b82a90e0d7306d9418ac8fe48b343b1cc7833fcf1aa31d5e405856d94a78d9be"
+    },
+    {
+      "path": "frontend/src/styles/natural.css",
+      "size_bytes": 11559,
+      "sha256": "9b5780b1feba01d3021fda31b01d9b5f3eea726205ade4a244e4fa415022a353"
+    },
+    {
+      "path": "frontend/src/vite-env.d.ts",
+      "size_bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "frontend/tests/interaction-fixes.test.ts",
+      "size_bytes": 5199,
+      "sha256": "08c28e165d9670ce6510400997f3d1c711d83867da05d821c753885af25a2b85"
+    },
+    {
+      "path": "frontend/tests/twin.test.ts",
+      "size_bytes": 1043,
+      "sha256": "aa54517ab2292886e506fc38fb6d4be9ea676b4c91959588a637670f10f9637a"
+    },
+    {
+      "path": "frontend/tests/workflow.test.ts",
+      "size_bytes": 7180,
+      "sha256": "a4b2c83d6a38c7563e4a723edb7bd2d075f49f5c5ce6ae360d8a3ddcc6f61424"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "size_bytes": 492,
+      "sha256": "e1b1ec029e9ce145a504377b876df077721c5867a0f326422948f12649f57c90"
+    },
+    {
+      "path": "frontend/vercel.json",
+      "size_bytes": 70,
+      "sha256": "8f3aede7ecff8bc5f4632d53b2492b03fa715f99d2de6dda53cdc02fac677be7"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "size_bytes": 345,
+      "sha256": "8994156b78d3f59ad260d16054c6dbcae459b05973059af0f9073edf3da5cbd4"
+    },
+    {
+      "path": "tools/rebuild_zip.py",
+      "size_bytes": 3123,
+      "sha256": "6c98954d7628c949da67202c0aee3e5d2c0d8d967e5d6b57bdd96467f2376808"
+    }
+  ]
+}

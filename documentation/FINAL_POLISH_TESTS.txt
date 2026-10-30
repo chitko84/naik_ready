@@ -1,0 +1,44 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> naikready-5g-unified@2.0.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ Normal works on first click after a completed journey and keeps its history (2.677003ms)
+✔ Blocked works on first click even when assistance is already pending (0.44733ms)
+✔ all scene-to-scene transitions work in one action (1.208635ms)
+✔ new sensor activity supersedes scene selection and prevents unsafe boarding (0.262889ms)
+✔ scene selection is stop-scoped and old saved records remain accepted (0.458297ms)
+✔ a failed analysis job exits immediately rather than polling forever (4.363213ms)
+✔ analysis progresses through queued, processing and complete (2.196002ms)
+✔ lost connection is bounded to three consecutive failures (0.595059ms)
+✔ analysis has a wall-clock deadline and supports immediate cancellation (1.292118ms)
+✔ scenario analysis uses reference events without inventing model confidence (0.360332ms)
+✔ map route animation stays on the route and fit-view includes both stops (0.313312ms)
+✔ original Blender normal GLB parses with finite geometry and materials (37.265557ms)
+✔ original Blender blocked GLB parses with finite geometry and materials (46.676798ms)
+✔ original Blender assistance GLB parses with finite geometry and materials (22.679613ms)
+✔ original Blender resolved GLB parses with finite geometry and materials (22.683798ms)
+✔ complete lifecycle requires acknowledgment and physical verification (3.554389ms)
+✔ same-stop obstruction blocks verification and success, new alert invalidates verification (0.346973ms)
+✔ obstruction at another stop does not prevent boarding (0.319152ms)
+✔ driver can record inability to board while zone remains blocked (0.534379ms)
+✔ cancel only pending requests, terminal records cannot be reopened (0.531575ms)
+✔ operator assignment, review and clearance retain audit trail (0.661998ms)
+✔ import deduplication and truck compatibility (0.743118ms)
+✔ clear event only affects its sensor episode and stop (0.494811ms)
+✔ manual clearance without id is scoped to selected stop (0.260635ms)
+✔ original guided success journey (0.364499ms)
+✔ original guided failure journey (0.258011ms)
+✔ scenario outcome shortcuts remain functional (0.425518ms)
+✔ malformed persistence is rejected and valid records restore (1.073436ms)
+✔ scripted null confidence normalizes without inventing a score (0.323638ms)
+✔ invalid stop, confidence, nonfinite dwell rejected (0.145034ms)
+✔ operator can save notes on a pending case without closing it (0.240465ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 397.315789

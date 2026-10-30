@@ -1,0 +1,117 @@
+{
+  "frames": [
+    1,
+    600
+  ],
+  "fps": 24,
+  "collections": [
+    [
+      "01_ROAD_AND_LANDSCAPE",
+      27
+    ],
+    [
+      "02_BUS_STOP",
+      77
+    ],
+    [
+      "03_BUS",
+      258
+    ],
+    [
+      "04_SILVER_CAR",
+      82
+    ],
+    [
+      "05_AI_HOLOGRAMS",
+      167
+    ],
+    [
+      "06_PASSENGER",
+      51
+    ],
+    [
+      "07_PEOPLE_AND_CITY",
+      708
+    ],
+    [
+      "08_CAMERAS_AND_LIGHTING",
+      22
+    ],
+    [
+      "09_UI_AND_TITLE",
+      45
+    ]
+  ],
+  "markers": [
+    [
+      "SHOT 01 | CITY ESTABLISH",
+      1
+    ],
+    [
+      "SHOT 02 | CAR ENTERS BAY",
+      61
+    ],
+    [
+      "SHOT 03 | CCTV OBSTRUCTION",
+      141
+    ],
+    [
+      "SHOT 04 | 5G ALERT",
+      206
+    ],
+    [
+      "SHOT 05 | HUMAN RESPONSE",
+      259
+    ],
+    [
+      "SHOT 06 | VERIFIED CLEAR",
+      313
+    ],
+    [
+      "SHOT 07 | RAMP DEPLOY",
+      411
+    ],
+    [
+      "SHOT 08 | ACCESSIBLE BOARDING",
+      471
+    ],
+    [
+      "SHOT 09 | HOPEFUL FINALE",
+      567
+    ]
+  ],
+  "snapshots": {
+    "normal": {
+      "frame": 1,
+      "objects_evaluated": 1054,
+      "vertices": 145594,
+      "polygons": 140618,
+      "materials": 59,
+      "size_bytes": 5391244
+    },
+    "blocked": {
+      "frame": 190,
+      "objects_evaluated": 1158,
+      "vertices": 181085,
+      "polygons": 173400,
+      "materials": 67,
+      "size_bytes": 6654208
+    },
+    "assistance": {
+      "frame": 285,
+      "objects_evaluated": 1190,
+      "vertices": 192553,
+      "polygons": 183516,
+      "materials": 67,
+      "size_bytes": 7045716
+    },
+    "resolved": {
+      "frame": 468,
+      "objects_evaluated": 1147,
+      "vertices": 170385,
+      "polygons": 163311,
+      "materials": 66,
+      "size_bytes": 6273496
+    }
+  }
+}

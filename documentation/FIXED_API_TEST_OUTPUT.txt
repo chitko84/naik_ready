@@ -1,0 +1,10 @@
+..ACTUAL_IMAGE_RESULT {"status": "complete", "progress": 100, "job_id": "d7a1792104b0403793ab3df3663050e3", "mode": "real_yolo_inference", "simulated": false, "media_type": "image", "stop_id": "CYB-DEMO-02", "zone": [[0.25, 0.45], [0.85, 0.45], [0.85, 0.82], [0.25, 0.82]], "dwell_seconds": 10, "frames_processed": 1, "observations": [], "zone_status": "CLEAR", "events": [], "evidence_url": "/api/jobs/d7a1792104b0403793ab3df3663050e3/evidence", "note": "Single-frame occupancy only; no stationary dwell or obstruction event can be inferred from an image.", "at": "2026-10-28T19:07:07.592688+00:00"}
+.ACTUAL_VIDEO_RESULT {"status": "complete", "progress": 100, "job_id": "c0469b05ee3545b994ac9629d0a96e5f", "mode": "real_yolo_inference", "simulated": false, "media_type": "video", "stop_id": "CYB-DEMO-01", "zone": [[0.25, 0.45], [0.85, 0.45], [0.85, 0.82], [0.25, 0.82]], "dwell_seconds": 2.0, "frames_processed": 15, "observations": [], "zone_status": "CLEAR", "events": [], "evidence_url": "/api/jobs/c0469b05ee3545b994ac9629d0a96e5f/evidence", "note": "YOLO detections + stationary bottom-center-in-polygon dwell. Potential obstruction requires human verification.", "at": "2026-10-28T19:07:08.168220+00:00"}
+...
+=============================== warnings summary ===============================
+../../../../../../root/.local/lib/python3.12/site-packages/fastapi/testclient.py:1
+  /root/.local/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+6 passed, 1 warning in 4.36s

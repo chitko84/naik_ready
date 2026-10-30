@@ -1,0 +1,35 @@
+{
+  "stop_id": "CYB-DEMO-01",
+  "zone_id": "boarding-zone-01",
+  "zone": [
+    [
+      0.25,
+      0.45
+    ],
+    [
+      0.85,
+      0.45
+    ],
+    [
+      0.85,
+      0.82
+    ],
+    [
+      0.25,
+      0.82
+    ]
+  ],
+  "dwell_seconds": 10.0,
+  "clear_seconds": 1.0,
+  "stationary_tolerance": 0.025,
+  "track_timeout_seconds": 0.75,
+  "match_iou": 0.2,
+  "blocking_classes": [
+    "car",
+    "motorcycle",
+    "truck"
+  ],
+  "confidence": 0.35,
+  "model": "yolov8n.pt",
+  "image_size": 640
+}

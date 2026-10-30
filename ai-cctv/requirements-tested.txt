@@ -1,0 +1,8 @@
+# Exact direct dependency versions used for this build; install requirements.txt for normal setup.
+ultralytics==8.4.187
+opencv-python==5.0.0.93
+streamlit==1.66.1
+numpy==2.3.5
+Pillow==12.3.0
+torch==2.14.1
+pytest==9.1.1

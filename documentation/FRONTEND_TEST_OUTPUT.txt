@@ -1,0 +1,33 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> naikready-5g-unified@2.0.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ original Blender normal GLB parses with finite geometry and materials (42.254904ms)
+✔ original Blender blocked GLB parses with finite geometry and materials (39.567054ms)
+✔ original Blender assistance GLB parses with finite geometry and materials (27.142316ms)
+✔ original Blender resolved GLB parses with finite geometry and materials (30.730165ms)
+✔ complete lifecycle requires acknowledgment and physical verification (1.833662ms)
+✔ same-stop obstruction blocks verification and success, new alert invalidates verification (0.417221ms)
+✔ obstruction at another stop does not prevent boarding (0.359904ms)
+✔ driver can record inability to board while zone remains blocked (0.349338ms)
+✔ cancel only pending requests, terminal records cannot be reopened (0.311862ms)
+✔ operator assignment, review and clearance retain audit trail (0.287155ms)
+✔ import deduplication and truck compatibility (0.719278ms)
+✔ clear event only affects its sensor episode and stop (0.509259ms)
+✔ manual clearance without id is scoped to selected stop (0.261655ms)
+✔ original guided success journey (0.380706ms)
+✔ original guided failure journey (0.200052ms)
+✔ scenario outcome shortcuts remain functional (0.335978ms)
+✔ malformed persistence is rejected and valid records restore (0.636062ms)
+✔ scripted null confidence normalizes without inventing a score (0.291892ms)
+✔ invalid stop, confidence, nonfinite dwell rejected (0.136246ms)
+✔ operator can save notes on a pending case without closing it (0.177048ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 547.215674

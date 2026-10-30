@@ -1,0 +1,420 @@
+{
+  "original_projects": [
+    {
+      "archive": "NaikReady_5G_Final_Polished_Prototype_v2 (1)(1).zip",
+      "destination": "frontend",
+      "files": [
+        {
+          "path": "frontend/CONTEXT.md",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/MASTER_PROMPT.md",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/QA_REPORT.md",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/README.md",
+          "status": "integrated/modified; original preserved as frontend/ORIGINAL_README.md"
+        },
+        {
+          "path": "frontend/design-reference/driver-dashboard.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/design-reference/operator-dashboard.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/design-reference/passenger-mobile.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/index.html",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/package.json",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/public/demo-assets/sample-obstruction-event.json",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/public/favicon.svg",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/src/app/App.tsx",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/app/demoContext.tsx",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/app/demoData.ts",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/app/demoReducer.ts",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/app/demoTypes.ts",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/assets/naikready-logo.svg",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/src/components/DigitalTwin.tsx",
+          "status": "integrated/modified; original preserved as frontend/src/components/SchematicTwin.tsx"
+        },
+        {
+          "path": "frontend/src/components/RequestTimeline.tsx",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/components/RouteMap.tsx",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/src/components/ScenarioVisual.tsx",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/src/components/UI.tsx",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/integrations/digitalTwinAdapter.ts",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/integrations/eventValidator.ts",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/main.tsx",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/src/pages/Driver.tsx",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/pages/Experience.tsx",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/pages/Operator.tsx",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/pages/Passenger.tsx",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/pages/ScenarioLab.tsx",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/pages/Welcome.tsx",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/styles/globals.css",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "frontend/src/vite-env.d.ts",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/tsconfig.json",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/vercel.json",
+          "status": "unchanged"
+        },
+        {
+          "path": "frontend/vite.config.ts",
+          "status": "integrated/modified"
+        }
+      ],
+      "excluded_environment_files": 0,
+      "original_files_present": 36
+    },
+    {
+      "archive": "NaikReady_5G_AI_CCTV_Demo_V2.zip",
+      "destination": "ai-cctv",
+      "files": [
+        {
+          "path": "ai-cctv/.streamlit/config.toml",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/app.py",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/assets/photoreal/ASSET_NOTES.md",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/assets/photoreal/car.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/assets/photoreal/clear.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/assets/photoreal/cleared.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/assets/photoreal/motorcycle.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/assets/README_ASSETS.md",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/config.json",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/console.css",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/CONTEXT.md",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/core.py",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/detect.py",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/docs/VALIDATION_V2.md",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/docs/vision_console/01_clear.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/docs/vision_console/02_car.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/docs/vision_console/03_motorcycle.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/docs/vision_console/04_cleared.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/docs/vision_console/05_zone.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/docs/vision_console/06_history.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/event_export.py",
+          "status": "integrated/modified"
+        },
+        {
+          "path": "ai-cctv/examples/sample-obstruction-events.json",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/LICENSE",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/make_demo.py",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/NOTICE.md",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/runs/c39d554e87/annotated.mp4",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/runs/c39d554e87/frames.jsonl",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/runs/c39d554e87/observing.jpg",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/runs/da3235ed66/annotated.mp4",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/runs/da3235ed66/clear.jpg",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/runs/da3235ed66/effective_config.json",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/runs/da3235ed66/events.json",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/runs/da3235ed66/frames.jsonl",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/runs/da3235ed66/observing.jpg",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/runs/da3235ed66/summary.json",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/simulation/01_clear_bus_stop.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/simulation/02_car_blocking.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/simulation/03_motorcycle_blocking.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/simulation/04_car_cleared.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/simulation/05_obstruction_cleared.png",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/simulation/annotated.mp4",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/simulation/events.json",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/simulation/frames.jsonl",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/simulation/preview.webm",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/outputs/simulation/summary.json",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/photo_scenarios.py",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/README.md",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/requirements-tested.txt",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/requirements.txt",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/scene_design.py",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/start_demo.bat",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/tests/test_dashboard.py",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/tests/test_event_export.py",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/tests/test_media.py",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/tests/test_monitor.py",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/vision.py",
+          "status": "unchanged"
+        },
+        {
+          "path": "ai-cctv/yolov8n.pt",
+          "status": "unchanged"
+        }
+      ],
+      "excluded_environment_files": 33493,
+      "original_files_present": 57
+    }
+  ],
+  "blender_source_byte_identical": true,
+  "blender_sha256": "394ad5d0211a1a1e8b555536d99f511bca6addf602f761a143b10bc76e335571",
+  "blender_readme_byte_identical": true,
+  "merged_required_paths": [
+    "frontend/src/app/App.tsx",
+    "frontend/src/components/VisionConsole.tsx",
+    "frontend/src/pages/Activity.tsx",
+    "frontend/package.json",
+    "frontend/package-lock.json",
+    "frontend/tsconfig.json",
+    "frontend/vite.config.ts",
+    "backend/main.py",
+    "backend/requirements.txt",
+    "README.md",
+    "SETUP_GUIDE.md",
+    "TEST_REPORT.md",
+    "START_WINDOWS.bat",
+    "ai-cctv/yolov8n.pt",
+    "frontend/public/twin/normal.glb",
+    "frontend/public/twin/normal.jpg",
+    "frontend/public/twin/blocked.glb",
+    "frontend/public/twin/blocked.jpg",
+    "frontend/public/twin/assistance.glb",
+    "frontend/public/twin/assistance.jpg",
+    "frontend/public/twin/resolved.glb",
+    "frontend/public/twin/resolved.jpg"
+  ],
+  "all_required_paths_present": true
+}

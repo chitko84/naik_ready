@@ -1,0 +1,94 @@
+[
+  {
+    "schema_version": "1.0",
+    "event_id": "ca388fe207b34f9fa327e27b9444f396",
+    "episode_id": "da644719a019-61251116",
+    "event_type": "OBSTRUCTION_DETECTED",
+    "scenario_id": "CAR_BLOCKING",
+    "stop_id": "CYB-DEMO-01",
+    "route_id": "DEMO-R01",
+    "timestamp": "2026-10-25T16:50:27.758482+00:00",
+    "video_time_seconds": 7.0,
+    "source_mode": "manual_simulation",
+    "timestamp_kind": "event_export_time",
+    "deployment_status": "prototype",
+    "zone": {
+      "id": "boarding-zone-01",
+      "dwell_seconds": 3.0,
+      "position_rule": "bottom_center_in_polygon"
+    },
+    "review_status": "PENDING_OPERATOR_REVIEW",
+    "is_demo": true,
+    "object": {
+      "class": "car",
+      "confidence": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "7cfdbdd9c0a743cc849ed4f1e4442c11",
+    "episode_id": "da644719a019-61251116",
+    "event_type": "OBSTRUCTION_CLEARED",
+    "scenario_id": "NORMAL",
+    "stop_id": "CYB-DEMO-01",
+    "route_id": "DEMO-R01",
+    "timestamp": "2026-10-25T16:50:27.758546+00:00",
+    "video_time_seconds": 12.0,
+    "source_mode": "manual_simulation",
+    "timestamp_kind": "event_export_time",
+    "deployment_status": "prototype",
+    "zone": {
+      "id": "boarding-zone-01",
+      "dwell_seconds": 0,
+      "position_rule": "bottom_center_in_polygon"
+    },
+    "review_status": "SENSOR_CONDITION_CLEARED",
+    "is_demo": true
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "7f90a082aa454bf98b2ede4ad4a599c0",
+    "episode_id": "da644719a019-c444f97e",
+    "event_type": "OBSTRUCTION_DETECTED",
+    "scenario_id": "MOTORCYCLE_BLOCKING",
+    "stop_id": "CYB-DEMO-01",
+    "route_id": "DEMO-R01",
+    "timestamp": "2026-10-25T16:50:27.758550+00:00",
+    "video_time_seconds": 16.0,
+    "source_mode": "manual_simulation",
+    "timestamp_kind": "event_export_time",
+    "deployment_status": "prototype",
+    "zone": {
+      "id": "boarding-zone-01",
+      "dwell_seconds": 3.0,
+      "position_rule": "bottom_center_in_polygon"
+    },
+    "review_status": "PENDING_OPERATOR_REVIEW",
+    "is_demo": true,
+    "object": {
+      "class": "motorcycle",
+      "confidence": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "94bdd5ff78ab43cdbe887ed4ec3d87ce",
+    "episode_id": "da644719a019-c444f97e",
+    "event_type": "OBSTRUCTION_CLEARED",
+    "scenario_id": "NORMAL",
+    "stop_id": "CYB-DEMO-01",
+    "route_id": "DEMO-R01",
+    "timestamp": "2026-10-25T16:50:27.758553+00:00",
+    "video_time_seconds": 21.0,
+    "source_mode": "manual_simulation",
+    "timestamp_kind": "event_export_time",
+    "deployment_status": "prototype",
+    "zone": {
+      "id": "boarding-zone-01",
+      "dwell_seconds": 0,
+      "position_rule": "bottom_center_in_polygon"
+    },
+    "review_status": "SENSOR_CONDITION_CLEARED",
+    "is_demo": true
+  }
+]
