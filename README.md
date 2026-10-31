@@ -6,7 +6,7 @@ NaikReady 5G brings passenger assistance, driver response, CCTV evidence and an 
 
 Built by students at **Albukhary International University, Malaysia**, for the **Cyberjaya 5G Future Talent Innovation Challenge 2026**.
 
-[Quick setup](#quick-setup-windows) Â· [Features](#features) Â· [Deployment](#vercel-deployment) Â· [Documentation](#documentation) Â· [Team](#team)
+[Quick setup](#quick-setup-windows) · [Features](#features) · [Deployment](#vercel-deployment) · [Documentation](#documentation) · [Team](#team)
 
 ---
 
@@ -14,7 +14,7 @@ Built by students at **Albukhary International University, Malaysia**, for the *
 
 A vehicle parked in a bus-stop boarding zone can prevent a bus from aligning with the kerb and deploying its wheelchair ramp. Passengers may struggle to signal for assistance, drivers may lack advance information, and operators may have limited evidence for resolving an obstruction.
 
-NaikReady connects these moments into a practical workflow: **request assistance â†’ review conditions â†’ respond â†’ record the outcome**.
+NaikReady connects these moments into a practical workflow: **request assistance → review conditions → respond → record the outcome**.
 
 ## Features
 
@@ -31,10 +31,10 @@ The interface also includes stop and fleet views, searchable activity, JSON hist
 
 ## User journeys
 
-- **Passenger:** Find a stop â†’ Request assistance â†’ Track progress â†’ View the outcome.
-- **Driver:** Review the request â†’ Acknowledge â†’ Verify boarding conditions â†’ Complete the action.
-- **Operator:** Identify an incident â†’ Review evidence â†’ Assign a response â†’ Resolve and review.
-- **Presentation:** Select a scenario â†’ Start the walkthrough â†’ Observe changes â†’ Review the outcome â†’ Reset.
+- **Passenger:** Find a stop → Request assistance → Track progress → View the outcome.
+- **Driver:** Review the request → Acknowledge → Verify boarding conditions → Complete the action.
+- **Operator:** Identify an incident → Review evidence → Assign a response → Resolve and review.
+- **Presentation:** Select a scenario → Start the walkthrough → Observe changes → Review the outcome → Reset.
 
 ## Technology
 
@@ -48,7 +48,7 @@ The interface also includes stop and fleet views, searchable activity, JSON hist
 | Standalone AI console | Streamlit |
 | Hosted configuration | Vercel services with a private AI service binding |
 
-## Quick setup â€” Windows
+## Quick setup — Windows
 
 ### 1. Prerequisites
 
