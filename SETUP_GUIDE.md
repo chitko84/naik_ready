@@ -9,7 +9,7 @@ Open a **PowerShell** terminal in the project root:
 ```powershell
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\.venv\Scripts\python.exe -m pip install -r backend\requirements.txt
+.\.venv\Scripts\python.exe -m pip install -r backend\requirements-local.txt
 ```
 
 Inference uses CPU. Torch is a large dependency, but it is installed separately from the web interface. For an explicitly CPU-only Torch installation, run this before installing backend requirements:

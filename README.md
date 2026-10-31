@@ -1,3 +1,9 @@
+> Vercel redeployment: start with [VERCEL_REDEPLOY.md](VERCEL_REDEPLOY.md). It explains the repository-root setting and removal of the old nested frontend configuration.
+
+# Vercel multi-service deployment update
+
+See [VERCEL_SERVICES.md](VERCEL_SERVICES.md) for the service architecture, private binding and validation limits. Confirm the listed service names and public paths before applying them to your Vercel project.
+
 # More real-life photography
 
 Latest update: [photography additions and validation](documentation/MORE_REAL_PHOTOS.md). [Windows setup commands](SETUP_GUIDE.md).

@@ -1,0 +1,12 @@
+.git/
+.vercel/
+.venv/
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+backend/runtime/
+digital-twin/
+documentation/
+*.zip
+frontend/public/twin/.*
+deployment-validation/

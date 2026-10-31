@@ -1,0 +1,64 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "ai-cctv": {
+      "root": "ai-cctv",
+      "runtime": "container",
+      "devCommand": "python serve.py",
+      "entrypoint": "Dockerfile"
+    },
+    "backend": {
+      "root": "backend",
+      "framework": "fastapi",
+      "entrypoint": "main:app",
+      "devCommand": "python serve.py",
+      "functions": {
+        "main.py": {
+          "maxDuration": 300
+        }
+      },
+      "bindings": [
+        {
+          "type": "service",
+          "service": "ai-cctv",
+          "format": "url",
+          "env": "AI_CCTV_URL"
+        }
+      ]
+    },
+    "frontend": {
+      "root": "frontend",
+      "framework": "vite",
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist",
+      "devCommand": "npm run dev:service -- --port $PORT",
+      "rewrites": [
+        {
+          "source": "/(.*)",
+          "destination": "/index.html"
+        }
+      ],
+      "installCommand": "npm ci"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": {
+        "service": "backend"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "frontend"
+      }
+    }
+  ]
+}

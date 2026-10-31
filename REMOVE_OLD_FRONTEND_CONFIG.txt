@@ -1,0 +1,1 @@
+After copying this update into the existing repository root, remove frontend/vercel.json. See VERCEL_REDEPLOY.md for PowerShell commands. Do not remove root vercel.json.

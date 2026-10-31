@@ -20,3 +20,20 @@ export function scenarioResult(data:{events:unknown[];summary?:Record<string,unk
  const event=scene==='car'||scene==='motorcycle'?events.find(e=>e.event_type==='OBSTRUCTION_DETECTED'&&e.object?.class===scene):scene==='cleared'?events.find(e=>e.event_type==='OBSTRUCTION_CLEARED'&&(!episodeId||e.episode_id===episodeId)):undefined;
  return {mode:'scenario_analysis',events:event?[event]:[],summary:data.summary,zone_status:scene==='car'||scene==='motorcycle'?'POTENTIAL':'CLEAR',note:scene==='car'||scene==='motorcycle'?'A stationary vehicle occupies the boarding area. Review the advisory and coordinate clearance.':'The boarding area is clear in this scenario. The driver verifies the zone before deploying the ramp.'};
 }
+
+// Hosted services return complete evidence in this request; local development returns a queued job.
+export async function readAnalysisStart(response:Response):Promise<{kind:'inline';result:JobSnapshot}|{kind:'queued';jobId:string}>{
+ let data:JobSnapshot;
+ try{data=await response.json()}catch{throw Error(response.status===413?'The hosted upload is too large. Use a file under 3.5 MB.':'The analysis API returned an invalid response.')}
+ if(!response.ok)throw Error(typeof data.detail==='string'?data.detail:'Analysis could not start. Check the selected file.');
+ if(data.status==='complete'){
+  if(data.mode!=='real_yolo_inference'||data.simulated!==false||!Array.isArray(data.events))throw Error('The analysis API returned an invalid inference result.');
+  if(typeof data.evidence_data_url==='string'){
+   if(!/^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/.test(data.evidence_data_url))throw Error('The analysis API returned invalid image evidence.');
+   data.evidence_url=data.evidence_data_url;
+  }
+  return {kind:'inline',result:data};
+ }
+ if((data.status==='queued'||data.status==='processing')&&typeof data.job_id==='string'&&/^[a-f0-9]{32}$/.test(data.job_id))return {kind:'queued',jobId:data.job_id};
+ throw Error('Vision API did not return a valid analysis result or job identifier.');
+}

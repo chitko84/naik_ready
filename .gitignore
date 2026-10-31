@@ -5,3 +5,9 @@ backend/runtime/
 __pycache__/
 .pytest_cache/
 *.tsbuildinfo
+
+.vercel/
+.env
+.env.*
+!.env.example
+*.pyc

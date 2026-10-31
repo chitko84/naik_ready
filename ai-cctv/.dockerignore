@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+tests/
+assets/
+.streamlit/
+**/*.mp4
+outputs/**/frames.jsonl
